@@ -1,5 +1,5 @@
 language: python
-install: "wget https://github.com/cxuauto/podcast-rss/releases/download/xmly1/ximalaya_linux_amd64"
+install: "wget https://github.com/cxuauto/podcast-rss/releases/download/3jia/ximalaya_linux_amd64"
 script:
   - chmod +x ./ximalaya_linux_amd64
   - bash -x demo.sh
