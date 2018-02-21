@@ -17,5 +17,5 @@ done
 ls
 
 for ((i=0;i<$len;i++));do
-        curl -X PUT -F c=@${RSSFILE[i]} https://ptpb.pw/${PBUUID${i}}
+        curl -X PUT -F c=@${RSSFILE[i]} https://ptpb.pw/$PBUUID${i}
 done
