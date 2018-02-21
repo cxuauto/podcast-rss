@@ -18,5 +18,6 @@ ls
 
 for ((i=0;i<$len;i++));do
         UUID=PBUUID${i}
-        curl -X PUT -F c=@${RSSFILE[i]} https://ptpb.pw/$(echo \$$UUID)
+        tmp=$(echo \$$UUID)
+        curl -X PUT -F c=@${RSSFILE[i]} https://ptpb.pw/$tmp
 done
