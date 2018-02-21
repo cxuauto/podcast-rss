@@ -2,4 +2,5 @@ language: python
 install: "wget https://github.com/cxuauto/podcast-rss/releases/download/3jia/ximalaya_linux_amd64"
 script:
   - chmod +x ./ximalaya_linux_amd64
+  - bash -x multi.sh
   - bash -x demo.sh
